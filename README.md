@@ -56,7 +56,9 @@
    - Average temperature in June is 74.94 degrees F, whereas in December it is slightly lower than in June. Similarly,  Variance of  Min and Max temperature in June      is slightly less than the temperature variance in December. 
    - Based on the Analysis we can predict that from June to December is the best time to attract the maximum number of tourists and thus making the surf shop            business sustainable.
   
-## Summary: Provide a high-level summary of the results and two additional queries that you would perform to gather more weather data for June and December.
+## Summary: 
+### Additional queries that you would perform to gather more weather data for June and December.
+
    - For Ideal surfing ,we should consider the appropriate amount of precipitation. Therefore, it is really important to anlyze the precipitation levels in Oahu.
    
            results = session.query(Measurement.date, Measurement.prcp).all()
