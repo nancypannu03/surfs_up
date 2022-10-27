@@ -6,7 +6,7 @@
  
       - Jupyter Notebook File : [SurfsUp_Challenge IPYNB File](SurfsUp_Challenge.ipynb)
         
-      - SQLite Database : [hawaii SQLite File](hawaii.sqlite)
+      - SQLite Database : [Hawaii SQLite File](hawaii.sqlite)
 
 ## Results: 
 ### Deliverable 1 : Determine the Summary Statistics for June
