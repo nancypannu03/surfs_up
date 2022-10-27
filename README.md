@@ -1,14 +1,14 @@
 # surfs_up
-## Overview of the analysis: 
+## Overview:
 ### Purpose of this analysis
- - In this Analysis we will assist investor W. Avy, to analyze the temperature data for the months of June and December in Oahu,in order to determine if the surf and ice cream shop business is sustainable year-round.
+ - In this Analysis we will assist investor W. Avy, to analyze the temperature data for the months of June and December in Oahu,in order to determine if the surf      and ice cream shop business is sustainable year-round.
  - Resources required : 
  
       - Jupyter Notebook Files : [SurfsUp_Challenge IPYNB File](SurfsUp_Challenge.ipynb)
         
       - SQLite Database - [hawaii SQLite File](hawaii.sqlite)
 
-## Results: Provide a bulleted list with three major points from the two analysis deliverables. Use images as support where needed.
+## Results: 
 ### Deliverable 1 : Determine the Summary Statistics for June
 #### Code and Results
       # Import the sqlalchemy extract function.
@@ -51,4 +51,9 @@
 
 ![Test Image](/Resources/December_Temps.png)
 
+### A bulleted list with three major points from the two analysis deliverables. 
+   - Temperature in June is more than the temperature in December. Temperature variance can be seen with the difference of few degrees.
+   - Average temperature in June is 74.94 degrees F, whereas in December it is slightly lower than in June. Similarly,  Variance of  Min and Max temperature in June      is slightly less than the temperature variance in December. 
+   - Based on the Analysis we can predict that from June to December is the best time to attract the maximum number of tourists and thus making the surf shop            business sustainable.
+  
 ## Summary: Provide a high-level summary of the results and two additional queries that you would perform to gather more weather data for June and December.
