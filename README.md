@@ -65,11 +65,11 @@
        
        df.set_index(df['date'], inplace=True)
    
-   - Plot the data for better precision of the analysis
+   - Plot the data for better precision of the analysis:
    
        df.plot()
       
-   - Check the active number of stations- Valid enough for the anlysis
+   - Check the active number of stations- Valid enough for the anlysis:
    
        session.query(Measurement.station, func.count(Measurement.station)).\group_by(Measurement.station).order_by(func.count(Measurement.station).desc()).all()
         
