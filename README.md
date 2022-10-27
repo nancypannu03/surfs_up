@@ -3,6 +3,7 @@
 ### Purpose of this analysis
  - In this Analysis we will assist investor W. Avy, to analyze the temperature data for the months of June and December in Oahu,in order to determine if the surf and ice cream shop business is sustainable year-round.
  - Resources required : 
+ 
         - Jupyter Notebook Files - [SurfsUp_Challenge IPYNB File](SurfsUp_Challenge.ipynb)
         
         - SQLite Database - [hawaii SQLite File](hawaii.sqlite)
