@@ -59,17 +59,15 @@
 ## Summary: Provide a high-level summary of the results and two additional queries that you would perform to gather more weather data for June and December.
    - For Ideal surfing ,we should considerate the appropriate amount of precipitation. Therefore, it is really important to anlyze the precipitation levels in Oahu.
    
-       results = session.query(Measurement.date, Measurement.prcp).all()
-       
-       df = pd.DataFrame(results, columns=['date','precipitation'])
-       
-       df.set_index(df['date'], inplace=True)
+           results = session.query(Measurement.date, Measurement.prcp).all()
+           df = pd.DataFrame(results, columns=['date','precipitation'])
+           df.set_index(df['date'], inplace=True)
    
    - Plot the data for better precision of the analysis:
    
-       df.plot()
+           df.plot()
       
    - Check the active number of stations- Valid enough for the anlysis:
    
-       session.query(Measurement.station, func.count(Measurement.station)).\group_by(Measurement.station).order_by(func.count(Measurement.station).desc()).all()
+           session.query(Measurement.station, func.count(Measurement.station)).\group_by(Measurement.station).order_by(func.count(Measurement.station).desc()).all()
         
